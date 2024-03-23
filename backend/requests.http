@@ -1,0 +1,14 @@
+GET http://localhost:4000/admin-api/user
+###
+POST http://localhost:4000/admin-api/new-user
+content-Type:application/json
+
+{
+   "username":"pranitha",
+   "phoneno":"9856321475",
+   "dob":"20-05-2005",
+   "email":"modalpoojitha@gmail.com",
+   "aadhar":"789632541478",
+   "address":"nalgonda",
+   "pincode":"987456"
+}
